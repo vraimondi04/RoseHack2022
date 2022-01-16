@@ -10,6 +10,14 @@ body {
     /* font-color: #1E90FF	 */
 }
 
+subhead {
+     background-image: url("https://i.redd.it/imkv74m4q5g41.png");
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    /* font-color: #1E90FF	 */
+}
+
 h1 {
   /* background-color: black; */
   font-family: 'Oswald', sans-serif;
@@ -95,6 +103,15 @@ main {
     margin: 18px auto auto auto;
 }
 
+.subhead p {
+    color: white;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 34px;
+    width: 90%;
+    margin: 18px auto auto auto;
+}
+
 .button {
   border-radius: 4px;
   color: #05A8AA;
@@ -116,33 +133,4 @@ main {
       -moz-box-shadow: 0 0 10px #ccc;
       -webkit-box-shadow: 0 0 10px #ccc;
       box-shadow: 0 0 10px #ccc;
-}
-
-ul.nutrition {
-  padding: 40px;
-  /* border: solid; */
-}
-
-ul.nutrition li {
-    display: inline-block;
-    background-color: #05A8AA;
-    list-style: none;
-    width: 200px;
-    padding: 10px 20px;
-    margin-bottom: 3px;
-
-}
-
-.nutrition .category {
-   color: white;
-    font-weight: 100;
-    letter-spacing: 2px;
-    display: block;
-}
-
-.nutrition .value {
-  color: white;
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: 2px;
 }
