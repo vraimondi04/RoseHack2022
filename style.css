@@ -1,0 +1,119 @@
+body {
+     background-image: url("https://i.redd.it/imkv74m4q5g41.png");
+     /* GIF background: */
+     /* https://pxt.azureedge.net/blob/3ff8d3740178849f5c5f14f5c1a0ffcc5ab7af85/static/concepts/star-field/star-field-background.gif */
+     /* https://i.gifer.com/KFzK.gif */
+     /* https://media.istockphoto.com/vectors/pixel-art-star-sky-at-night-vector-id1208374725?b=1&k=20&m=1208374725&s=612x612&w=0&h=VSKdMsk5cRpTV3bIL-7dkIyO0DzBblKzftknOX6d4xs= */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    /* font-color: #1E90FF	 */
+}
+
+h1 {
+  /* background-color: black; */
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+    font-weight: 700;
+  color: #006400;
+}
+
+ .g {
+    font-size: 80px;
+    color: #29ba85;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(35,180,127),0px 1px 0 rgb(28,173,120),0px 2px 0 rgb(22,167,114),0px 3px 0 rgb(16,161,108),0px 4px 0 rgb(10,155,102),0px 5px 0 rgb(3,148,95),0px 6px 0 rgb(-3,142,89),0px 7px 0 rgb(-9,136,83),0px 8px 0 rgb(-16,129,76),0px 9px 0 rgb(-22,123,70),0px 10px  0 rgb(-28,117,64),0px 11px 10px rgba(0,0,0,0.41),0px 11px 1px rgba(0,0,0,0.5),0px 0px 10px rgba(0,0,0,.2);
+ }
+ 
+a {
+    text-decoration: none;
+}
+
+nav img {
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-weight: 120;
+    letter-spacing: 2px;
+    margin: 10px 0; 
+}
+
+nav a:hover {
+    color: rgb(255, 230, 3);
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    margin: 10px auto;
+    /* overflow: scroll; */
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.box-title {
+    /* background-image: url("https://cdn.discordapp.com/attachments/932022813978673193/932127934947397733/moon.gif"); */
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.box-title h1 {
+    background-color: rgb(11, 11, 11);
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.first .body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.body p {
+    color: white;
+    font-weight: 100;
+    line-height: 34px;
+    width: 90%;
+    margin: 18px auto auto auto;
+}
+
+.button {
+  border-radius: 4px;
+  color: #05A8AA;
+  display: block;
+  font-weight: 700;
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid blue;
+}
+
+.button:hover {
+    color: white;
+    background-color: #05A8AA;
+    border: 1px solid #05A8AA;
+}
+
+.planet:hover {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+}
