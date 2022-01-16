@@ -117,3 +117,32 @@ main {
       -webkit-box-shadow: 0 0 10px #ccc;
       box-shadow: 0 0 10px #ccc;
 }
+
+ul.nutrition {
+  padding: 40px;
+  /* border: solid; */
+}
+
+ul.nutrition li {
+    display: inline-block;
+    background-color: #05A8AA;
+    list-style: none;
+    width: 200px;
+    padding: 10px 20px;
+    margin-bottom: 3px;
+
+}
+
+.nutrition .category {
+   color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
